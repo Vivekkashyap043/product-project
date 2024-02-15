@@ -1,0 +1,33 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header is above other content */
+  }
+  
+  .container-fluid {
+    margin-top: 95px; /* Adjust as needed based on the height of your header */
+  }
+
+  .proback{
+    height : 40rem;
+  }
+
+  .rimg{
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+    width : 80%;
+    height: 80%;
+    margin: 40px;
+  }
+
+  .detail{
+    margin-top: 100px;
+  }
+
+  .backbtn{
+    width: 100px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 20px;
+  }

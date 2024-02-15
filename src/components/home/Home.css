@@ -1,0 +1,33 @@
+.bold{
+    font-weight: 600;
+    font-size: 40px;
+}
+.head{
+    height: 50%;
+}
+.body{
+    height: 50%;
+}
+.cont{
+    width: 100%;
+    height: 100%;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header is above other content */
+  }
+  
+  .container-fluid {
+    margin-top: 100px; /* Adjust as needed based on the height of your header */
+  }
+
+  .proback{
+    background-image: url('https://st3.depositphotos.com/12006318/15189/i/450/depositphotos_151897610-stock-photo-product-showscase-spotlight-background-crisp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
